@@ -9,9 +9,9 @@ object Dependencies {
 
   val sangria = "org.sangria-graphql" %% "sangria" % "4.2.18"
   val sangriaCirce = "org.sangria-graphql" %% "sangria-circe" % "1.3.2"
-  val logbackClassic = "ch.qos.logback" % "logback-classic" % "1.5.38"
+  val logbackClassic = "ch.qos.logback" % "logback-classic" % "1.6.3"
 
-  val catsEffect = "org.typelevel" %% "cats-effect" % "3.7.0"
+  val catsEffect = "org.typelevel" %% "cats-effect" % "3.7.1"
   val http4sEmberServer = "org.http4s" %% "http4s-ember-server" % V.http4s
   val http4sCirce = "org.http4s" %% "http4s-circe" % V.http4s
   val http4sDsl = "org.http4s" %% "http4s-dsl" % V.http4s
